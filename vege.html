@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Elephant' rel='stylesheet'>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+	.nav{
+		font align-content: center;
+		width: 20px;
+		height: 20px;
+	}
+
+.navbar {
+  overflow: hidden;
+	margin-left: 50px;
+	width: 1020px;
+	margin-top: 50px;
+	
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	margin-left: 120px;
+	color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+	margin-left: 80px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	color: black;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	
+#img1{
+	width: 170px;
+	height: 120px;
+	margin-bottom: 20px;
+	margin-right: 900px;
+}
+	
+	#img2{
+		width: 1400px;
+	    height: 300px;
+	}
+	.imgtable{
+		width:300px;
+		height: 250px;
+	}
+	
+	.p1{
+		text-align: center;
+		background-color: lightgreen;
+		width: 300px;
+		height: 50px;
+		border-radius: 10px;
+	padding-top: 20px;
+		font-weight: 600;
+
+	}
+	
+	.data1{
+		padding-left: 60px;
+	}
+	
+	.data2{
+		padding-left: 180px;
+	}
+	#para{
+		background-color: lightgreen;
+		width: 250px;
+		height: 500px;
+		text-align: justify;
+		padding :60px 20px 100px 20px;
+		border-radius: 15px;
+		float: right;
+		border-style: solid;
+		border-color: green;
+		
+	}
+	#paraimg{
+		width: 200px;
+		height: 200px;
+		margin-left: 70px;
+		margin-bottom: 70px;
+	}
+	.tabcontent{
+		margin-bottom: 100px;
+		padding-right: 0px;
+	}
+	.d3{
+		background-color: white;
+	}
+	.footer{
+		background-color: darkgreen;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 60px;
+		width: 900px;
+	}
+	.footer p{
+		color: aliceblue;
+		line-height: 1.5;
+	}
+	#img3{
+		width:330px;
+		height: 270px;
+	}
+	.head1 input[type=text] {
+  		padding: 10px;
+		font-size: 17px;
+		float: left;
+		width: 25%;
+		background: #f1f1f1;
+		border-radius:50px 0px 0px 50px;
+		margin-bottom: 60px;
+		border-style: solid;
+		border-width: 10px;
+		border-color: green;
+}
+.head1 button {
+  float: left;
+  width: 10%;
+	height: 59px;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+  border-radius:0px 50px 50px 0px;
+}
+	#d3{
+		position: absolute;
+		margin-right: 800px;
+		margin-bottom: 50px;
+	}
+	
+	#para4{
+		top: 1%;
+		position: absolute;
+		font-family: 'Elephant';
+		font-size: 60px;
+		padding-left: 30px;
+	}
+	#para5{
+		top:13%;
+		position: absolute;
+		font-family: 'Elephant';
+		font-size: 40px;
+		padding-left: 110px;
+		color: green;
+	}
+</style>
+</head>
+<body style="background-color:white;">
+	<header>
+		<div class="head1">
+		<div>
+		<img id="img2" src="Bg_for_heder.jpg">
+			<h2 id="para4">Fresh & Healthy</h2>
+			<h2 id="para5">VEGETABLES</h2>
+		</div>
+		
+			 
+		
+		<form>
+  		<input type="text" placeholder="Search.." name="search">
+  		<button type="submit"><i class="fa fa-search"></i></button>
+		</form>
+		</div>
+	</header>
+<center>
+<div class="navbar">
+	
+  <a href="#home">Home</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Order Online 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Delivery</a>
+      <a href="#">Pick up</a>
+    </div>
+    
+  </div> 
+  <a href="#news">About Us</a>
+  <a href="#news">Contact Us</a>
+</div>
+	
+</center>
+	<img id="img1" src="logo.png">
+		
+<br>		
+		
+		
+<div class="tabcontent">
+<table id="tab1">
+<tr>	
+ <td>
+	 <div>
+  <img class ="imgtable" src="C.jpeg" alt="Carrot">
+  <p class="p1"> RS 349.00 - 1kg </p>
+	</div>
+</td>
+ <td class="data1">
+	 <div>
+  <img class ="imgtable" src="B.jpg" alt="Beatroot">
+  <p class="p1"> RS 463.00 - 1kg </p>
+	</div>
+</td>
+</tr>
+<tr>	
+ <td>
+	 <div>
+  <img class ="imgtable" src="556--1584341288.jpg" alt="Leaks">
+  <p class="p1"> RS 329.00 - 1kg </p>
+	</div>
+</td>
+ <td class="data1">
+	 <div>
+  <img class ="imgtable" src="red-tomato-25-gm-500-gm.jfif" alt="Tomato">
+  <p class="p1"> RS 449.00 - 1kg </p>
+	</div>
+</td>
+<td class="data2">
+		<div id="para">
+	<p>Fruits and vegetables contain 
+important vitamins, minerals and 
+plant chemicals. They also 
+contain fiber.
+<br>There are many varieties of fruit 
+and vegetables available and 
+many ways to prepare, cook and 
+serve them.
+<br> A diet high in fruit and vegetables 
+can help protect you against 
+cancer, diabetes and heart 
+disease.
+<br> Eat 5 kinds of vegetable and 2 
+kinds of fruit every day for good 
+health.
+<br> Most Australians do not eat 
+enough fruit and vegetables.
+<br> When buying and serving fruit 
+and vegetables, aim for variety to 
+get the most nutrients and 
+appeal.</p>
+	<a href="">
+		<button>More</button>
+	</a>
+	<img id="paraimg" src="veg.png">
+</td>
+</tr>
+<tr>	
+ <td>
+	 <div>
+  <img class ="imgtable" src="Pumpkin-sliced-open-f2b8dde.jpg" alt="Pumking">
+  <p class="p1"> RS 949.00 - 1kg </p>
+	</div>
+</td>
+ <td class="data1">
+	 <div>
+  <img class ="imgtable" src="download.jfif" alt="Beans">
+  <p class="p1"> RS 849.00 - 1kg </p>
+	</div>
+</td>
+</tr>
+</table>
+</div>
+<footer>
+	<table>
+		<tr>
+			<td>
+	<div class="footer">
+		<p>Jaykay Marketing Services Pvt Ltd.<br>
+No:148, Vauxhall Street, Colombo 2,<br>
+Sri Lanka.<br><br><br>
+<p style="color: greenyellow">+94 11 2303500</p>
+<p style="color:aliceblue">(Daily operating hours 8.00a.m to 8.00p.m)</p>
+	</div>
+</td>
+<td>
+		<div>
+		<img id="img3" src="logo.png">
+	</div>
+</td>
+</tr>
+</table>
+</footer>
+</body>
+</html>
