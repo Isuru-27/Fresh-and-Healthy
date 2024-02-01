@@ -1,6 +1,6 @@
 # Fresh and Healthy
 
-Welcome to the Fresh and Healthy repository! This is a frontend project developed with HTML and CSS aimed at promoting healthy living and nutritious eating habits.
+Welcome to the Fresh and Healthy repository! This is a frontend project developed with HTML and CSS aimed at promoting healthy living and nutritious eating habits.<br>
 ![10](https://github.com/Isuru-27/Fresh-and-Healthy/assets/139687227/be42d63b-26e3-430b-b2ee-cfa2bdc5782f)
 
 ## Description
